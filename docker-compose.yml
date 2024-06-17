@@ -1,1 +1,5 @@
-services:  oasis-recommendation-engine:    build: .    ports:      - "5500:5000"
+services:
+  oasis-recommendation-engine:
+    build: .
+    ports:
+      - "5000:8080"
