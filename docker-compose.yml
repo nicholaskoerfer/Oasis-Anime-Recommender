@@ -1,5 +1,6 @@
 services:
   oasis-recommendation-engine:
+    restart: unless-stopped
     build: .
     ports:
-      - "5000:8080"
+      - "3010:8080"
